@@ -1,3 +1,15 @@
 body {
-    background: yellow;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contacts-container {
+    background: #1e2939;
+}
+
+.tech-skills-container {
+    background: tomato;
+}
+
+.soft-skills-container {
+    background: sandybrown;
 }
