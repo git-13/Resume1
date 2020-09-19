@@ -4,12 +4,27 @@ body {
 
 .contacts-container {
     background: #1e2939;
+    width: 400px;
+    height: 200px;
+    padding-left: 40px;
+    padding-top: 40px;
+    box-sizing: border-box;
 }
 
 .tech-skills-container {
     background: tomato;
+    width: 400px;
+    height: 300px;
+    padding-left: 40px;
+    padding-top: 40px;
+    box-sizing: border-box;
 }
 
 .soft-skills-container {
     background: sandybrown;
+    width: 400px;
+    height: 200px;
+    padding-left: 40px;
+    padding-top: 40px;
+    box-sizing: border-box;
 }
