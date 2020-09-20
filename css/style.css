@@ -4,7 +4,7 @@ body {
 
 .contacts-container {
     background: #1e2939;
-    width: 400px;
+    width: 900px;
     height: 200px;
     padding-left: 40px;
     padding-top: 40px;
@@ -13,18 +13,31 @@ body {
 
 .tech-skills-container {
     background: tomato;
-    width: 400px;
+    width: 900px;
     height: 300px;
     padding-left: 40px;
     padding-top: 40px;
     box-sizing: border-box;
+    margin-top: 40px;
 }
 
 .soft-skills-container {
     background: sandybrown;
-    width: 400px;
+    width: 900px;
     height: 200px;
-    padding-left: 40px;
-    padding-top: 40px;
+   /*padding-left: 40px;
+    padding-top: 40px;*/
+    padding: 40px;
     box-sizing: border-box;
+    margin-top: 40px;
+}
+
+.tech-skills-title {
+    font-size: 50px;
+    font-weight: 200;
+}
+
+.tech-skills-item {
+    font-size: 100px;
+    line-height: 50px;
 }
