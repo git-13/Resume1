@@ -4,7 +4,7 @@ body {
 
 .contacts-container {
     background: #1e2939;
-    width: 900px;
+    width: 400px;
     height: 200px;
     padding-left: 40px;
     padding-top: 40px;
@@ -13,7 +13,7 @@ body {
 
 .tech-skills-container {
     background: tomato;
-    width: 900px;
+    width: 400px;
     height: 300px;
     padding-left: 40px;
     padding-top: 40px;
@@ -23,7 +23,7 @@ body {
 
 .soft-skills-container {
     background: sandybrown;
-    width: 900px;
+    width: 400px;
     height: 200px;
    /*padding-left: 40px;
     padding-top: 40px;*/
@@ -38,6 +38,6 @@ body {
 }
 
 .tech-skills-item {
-    font-size: 100px;
+    font-size: 40px;
     line-height: 50px;
 }
