@@ -1,55 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body {
-    font-family: 'Montserrat', sans-serif;
+    background-color: #f5f7fa;
+    padding: 20px;
+    font-family: Montserrat;
+}
+
+.wrapper {
+    background: #fff;
+    display: flex;
+}
+
+.sidebar {
+    background: #1e2939;
+    width: 370px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.my-photo {
+    width: 370px;
+}
+
+.about-me-container {
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 110px;
+    padding-bottom: 110px;
 }
 
 .contacts-container {
-    background: #1e2939;
-    width: 400px;
-    height: 200px;
-    padding-left: 40px;
-    padding-top: 40px;
-    box-sizing: border-box;
+    margin-top: 60px;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
-.tech-skills-container {
-    background: tomato;
-    width: 400px;
-    padding-left: 40px;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    box-sizing: border-box;
-    margin-top: 40px;
+.contacts-title { 
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #fff;
+    margin-bottom: 20px;
 }
 
-.soft-skills-container {
-    background: sandybrown;
-    width: 400px;
-    height: 200px;
-   /*padding-left: 40px;
-    padding-top: 40px;*/
-    padding: 40px;
-    box-sizing: border-box;
-    margin-top: 40px;
-}
-
-.tech-skills-title {
-    font-size: 50px;
-    font-weight: 200;
-}
-
-.tech-skills-item {
-    width: 121px;
-    height: 17px;
-    color: #ffffff;
-    font-family: Montserrat;
+.contacts-link {
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
+    color: #585f6a;
 }
 
-.main-container {
-    background-color: turquoise;
-    display: flex;
-    flex-direction: row;
-    width: 400px; 
+.contacts-link-types{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #fff;
+    margin-right: 10px;
+}
+
+.tech-skills-title {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.tech-skills-container {
+    margin-top: 55px;
+    margin-left: 40px;
+    margin-right: 40px;
 }
